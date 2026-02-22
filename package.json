@@ -1,0 +1,21 @@
+{
+  "name": "lab04-node-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hphewa/lab04-node-github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hphewa/lab04-node-github/issues"
+  },
+  "homepage": "https://github.com/Hphewa/lab04-node-github#readme"
+}
