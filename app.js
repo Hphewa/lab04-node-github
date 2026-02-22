@@ -67,3 +67,19 @@ myPromise
   .catch((error) => {
     console.log(error);
   });
+
+  //Async/Await
+  const myPromise2 = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("Done using async/await!"), 1000);
+});
+
+async function myFunction() {
+  try {
+    const result = await myPromise2;
+    console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+myFunction();
