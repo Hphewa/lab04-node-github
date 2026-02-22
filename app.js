@@ -1,4 +1,5 @@
 console.log("Hello from Node.js!");
+console.log("Hiii from Node.js!");
 
 // Read file
 const fs = require('fs');
